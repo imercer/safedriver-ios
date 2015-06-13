@@ -30,6 +30,7 @@
 		3DA7A9A81B2C353400923039 /* SafeDriver WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DA7A98E1B2C353400923039 /* SafeDriver WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3DA7A9B01B2C35BE00923039 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9AF1B2C35BE00923039 /* iAd.framework */; };
 		3DA7A9B21B2C35C200923039 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9B11B2C35C200923039 /* AdSupport.framework */; };
+		3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9B31B2C38AA00923039 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		3DA7A9A41B2C353400923039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DA7A9AF1B2C35BE00923039 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		3DA7A9B11B2C35C200923039 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3DA7A9B31B2C38AA00923039 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				227059B419F512D4003D0222 /* ViewController.swift */,
 				3DA7A9701B2C2F3300923039 /* overtaking.mp3 */,
 				3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */,
+				3DA7A9B31B2C38AA00923039 /* bg.jpg */,
 				3DA7A96E1B2C2ED100923039 /* corners.mp3 */,
 				3DA7A96C1B2C2EAC00923039 /* left.mp3 */,
 				227059B619F512D4003D0222 /* Main.storyboard */,
@@ -433,6 +436,7 @@
 				3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */,
 				3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */,
 				227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */,
+				3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */,
 				227059BA19F512D4003D0222 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

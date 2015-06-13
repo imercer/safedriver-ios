@@ -38,9 +38,9 @@
                     <animations/>
                     <blurEffect style="light"/>
                 </visualEffectView>
-                <visualEffectView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGx-Ir-F7p">
+                <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGx-Ir-F7p">
                     <rect key="frame" x="42" y="434" width="397" height="38"/>
-                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="rh9-c6-9tE">
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rh9-c6-9tE">
                         <rect key="frame" x="0.0" y="0.0" width="397" height="38"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

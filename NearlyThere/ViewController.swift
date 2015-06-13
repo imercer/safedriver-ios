@@ -44,7 +44,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
     var slowNotification:UILocalNotification = UILocalNotification()
     slowNotification.alertBody = "Slow Down when approaching corners"
     slowNotification.repeatInterval = NSCalendarUnit.CalendarUnitHour
-    slowNotification.soundName = "slow.mp3"
+    slowNotification.soundName = "corners.mp3"
     slowNotification.fireDate = NSDate(timeIntervalSinceNow: 1800)
     UIApplication.sharedApplication().scheduleLocalNotification(slowNotification)
     

@@ -25,5 +25,22 @@
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
         </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="Uqf-K6-tHm">
+            <objects>
+                <glanceController id="MwL-ZM-5Zb">
+                    <items>
+                        <group alignment="left" id="J7X-1S-gcx">
+                            <items>
+                                <dateLabel width="86" height="28" alignment="left" textAlignment="center" id="old-w5-HYl">
+                                    <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                                </dateLabel>
+                            </items>
+                        </group>
+                        <group alignment="left" id="0ae-PP-mlS"/>
+                    </items>
+                </glanceController>
+            </objects>
+        </scene>
     </scenes>
 </document>

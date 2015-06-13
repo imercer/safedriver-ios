@@ -11,6 +11,8 @@
 		</dict>
 		<key>SafeDriver WatchKit App.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
@@ -21,6 +23,8 @@
 		</dict>
 		<key>WatchApp-Glance.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>

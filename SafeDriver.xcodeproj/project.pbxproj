@@ -17,6 +17,19 @@
 		3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96E1B2C2ED100923039 /* corners.mp3 */; };
 		3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9701B2C2F3300923039 /* overtaking.mp3 */; };
 		3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */; };
+		3DA7A97B1B2C345300923039 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A97A1B2C345300923039 /* NotificationCenter.framework */; };
+		3DA7A9801B2C345300923039 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7A97F1B2C345300923039 /* TodayViewController.swift */; };
+		3DA7A9821B2C345300923039 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9811B2C345300923039 /* MainInterface.storyboard */; };
+		3DA7A9851B2C345300923039 /* SafeDriver Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DA7A9781B2C345300923039 /* SafeDriver Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DA7A9931B2C353400923039 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7A9921B2C353400923039 /* InterfaceController.swift */; };
+		3DA7A9951B2C353400923039 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7A9941B2C353400923039 /* GlanceController.swift */; };
+		3DA7A9971B2C353400923039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9961B2C353400923039 /* Images.xcassets */; };
+		3DA7A99B1B2C353400923039 /* SafeDriver WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A99A1B2C353400923039 /* SafeDriver WatchKit App.app */; };
+		3DA7A9A31B2C353400923039 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9A11B2C353400923039 /* Interface.storyboard */; };
+		3DA7A9A51B2C353400923039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9A41B2C353400923039 /* Images.xcassets */; };
+		3DA7A9A81B2C353400923039 /* SafeDriver WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DA7A98E1B2C353400923039 /* SafeDriver WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DA7A9B01B2C35BE00923039 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9AF1B2C35BE00923039 /* iAd.framework */; };
+		3DA7A9B21B2C35C200923039 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9B11B2C35C200923039 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +40,43 @@
 			remoteGlobalIDString = 227059AC19F512D4003D0222;
 			remoteInfo = NearlyThere;
 		};
+		3DA7A9831B2C345300923039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227059A519F512D3003D0222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA7A9771B2C345300923039;
+			remoteInfo = "SafeDriver Today";
+		};
+		3DA7A99C1B2C353400923039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227059A519F512D3003D0222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA7A9991B2C353400923039;
+			remoteInfo = "SafeDriver WatchKit App";
+		};
+		3DA7A9A61B2C353400923039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227059A519F512D3003D0222 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA7A98D1B2C353400923039;
+			remoteInfo = "SafeDriver WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DA7A9891B2C345300923039 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DA7A9A81B2C353400923039 /* SafeDriver WatchKit Extension.appex in Embed App Extensions */,
+				3DA7A9851B2C345300923039 /* SafeDriver Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		227059AD19F512D4003D0222 /* SafeDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +93,22 @@
 		3DA7A96E1B2C2ED100923039 /* corners.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corners.mp3; sourceTree = "<group>"; };
 		3DA7A9701B2C2F3300923039 /* overtaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtaking.mp3; sourceTree = "<group>"; };
 		3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wetandicy.mp3; sourceTree = "<group>"; };
+		3DA7A9781B2C345300923039 /* SafeDriver Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafeDriver Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA7A97A1B2C345300923039 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		3DA7A97E1B2C345300923039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA7A97F1B2C345300923039 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		3DA7A9811B2C345300923039 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		3DA7A98E1B2C353400923039 /* SafeDriver WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafeDriver WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA7A9911B2C353400923039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA7A9921B2C353400923039 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3DA7A9941B2C353400923039 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		3DA7A9961B2C353400923039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DA7A99A1B2C353400923039 /* SafeDriver WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeDriver WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA7A9A01B2C353400923039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA7A9A21B2C353400923039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3DA7A9A41B2C353400923039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DA7A9AF1B2C35BE00923039 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3DA7A9B11B2C35C200923039 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +116,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA7A9B21B2C35C200923039 /* AdSupport.framework in Frameworks */,
+				3DA7A9B01B2C35BE00923039 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		227059BF19F512D4003D0222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA7A9751B2C345300923039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A97B1B2C345300923039 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA7A98B1B2C353400923039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,6 +151,10 @@
 			children = (
 				227059AF19F512D4003D0222 /* NearlyThere */,
 				227059C519F512D5003D0222 /* NearlyThereTests */,
+				3DA7A97C1B2C345300923039 /* SafeDriver Today */,
+				3DA7A98F1B2C353400923039 /* SafeDriver WatchKit Extension */,
+				3DA7A99E1B2C353400923039 /* SafeDriver WatchKit App */,
+				3DA7A9791B2C345300923039 /* Frameworks */,
 				227059AE19F512D4003D0222 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +164,9 @@
 			children = (
 				227059AD19F512D4003D0222 /* SafeDriver.app */,
 				227059C219F512D4003D0222 /* SafeDriverTests.xctest */,
+				3DA7A9781B2C345300923039 /* SafeDriver Today.appex */,
+				3DA7A98E1B2C353400923039 /* SafeDriver WatchKit Extension.appex */,
+				3DA7A99A1B2C353400923039 /* SafeDriver WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +213,71 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3DA7A9791B2C345300923039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A9B11B2C35C200923039 /* AdSupport.framework */,
+				3DA7A9AF1B2C35BE00923039 /* iAd.framework */,
+				3DA7A97A1B2C345300923039 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DA7A97C1B2C345300923039 /* SafeDriver Today */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A97F1B2C345300923039 /* TodayViewController.swift */,
+				3DA7A9811B2C345300923039 /* MainInterface.storyboard */,
+				3DA7A97D1B2C345300923039 /* Supporting Files */,
+			);
+			path = "SafeDriver Today";
+			sourceTree = "<group>";
+		};
+		3DA7A97D1B2C345300923039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A97E1B2C345300923039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA7A98F1B2C353400923039 /* SafeDriver WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A9921B2C353400923039 /* InterfaceController.swift */,
+				3DA7A9941B2C353400923039 /* GlanceController.swift */,
+				3DA7A9961B2C353400923039 /* Images.xcassets */,
+				3DA7A9901B2C353400923039 /* Supporting Files */,
+			);
+			path = "SafeDriver WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3DA7A9901B2C353400923039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A9911B2C353400923039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA7A99E1B2C353400923039 /* SafeDriver WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A9A11B2C353400923039 /* Interface.storyboard */,
+				3DA7A9A41B2C353400923039 /* Images.xcassets */,
+				3DA7A99F1B2C353400923039 /* Supporting Files */,
+			);
+			path = "SafeDriver WatchKit App";
+			sourceTree = "<group>";
+		};
+		3DA7A99F1B2C353400923039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA7A9A01B2C353400923039 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +288,13 @@
 				227059A919F512D4003D0222 /* Sources */,
 				227059AA19F512D4003D0222 /* Frameworks */,
 				227059AB19F512D4003D0222 /* Resources */,
+				3DA7A9891B2C345300923039 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3DA7A9841B2C345300923039 /* PBXTargetDependency */,
+				3DA7A9A71B2C353400923039 /* PBXTargetDependency */,
 			);
 			name = SafeDriver;
 			productName = NearlyThere;
@@ -162,6 +319,56 @@
 			productReference = 227059C219F512D4003D0222 /* SafeDriverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		3DA7A9771B2C345300923039 /* SafeDriver Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA7A9861B2C345300923039 /* Build configuration list for PBXNativeTarget "SafeDriver Today" */;
+			buildPhases = (
+				3DA7A9741B2C345300923039 /* Sources */,
+				3DA7A9751B2C345300923039 /* Frameworks */,
+				3DA7A9761B2C345300923039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeDriver Today";
+			productName = "SafeDriver Today";
+			productReference = 3DA7A9781B2C345300923039 /* SafeDriver Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3DA7A98D1B2C353400923039 /* SafeDriver WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA7A9AC1B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit Extension" */;
+			buildPhases = (
+				3DA7A98A1B2C353400923039 /* Sources */,
+				3DA7A98B1B2C353400923039 /* Frameworks */,
+				3DA7A98C1B2C353400923039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA7A99D1B2C353400923039 /* PBXTargetDependency */,
+			);
+			name = "SafeDriver WatchKit Extension";
+			productName = "SafeDriver WatchKit Extension";
+			productReference = 3DA7A98E1B2C353400923039 /* SafeDriver WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		3DA7A9991B2C353400923039 /* SafeDriver WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA7A9A91B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit App" */;
+			buildPhases = (
+				3DA7A9981B2C353400923039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeDriver WatchKit App";
+			productName = "SafeDriver WatchKit App";
+			productReference = 3DA7A99A1B2C353400923039 /* SafeDriver WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +385,18 @@
 					227059C119F512D4003D0222 = {
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = 227059AC19F512D4003D0222;
+					};
+					3DA7A9771B2C345300923039 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YBYHDBC82A;
+					};
+					3DA7A98D1B2C353400923039 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YBYHDBC82A;
+					};
+					3DA7A9991B2C353400923039 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YBYHDBC82A;
 					};
 				};
 			};
@@ -196,6 +415,9 @@
 			targets = (
 				227059AC19F512D4003D0222 /* SafeDriver */,
 				227059C119F512D4003D0222 /* SafeDriverTests */,
+				3DA7A9771B2C345300923039 /* SafeDriver Today */,
+				3DA7A98D1B2C353400923039 /* SafeDriver WatchKit Extension */,
+				3DA7A9991B2C353400923039 /* SafeDriver WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +444,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DA7A9761B2C345300923039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A9821B2C345300923039 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA7A98C1B2C353400923039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A9971B2C353400923039 /* Images.xcassets in Resources */,
+				3DA7A99B1B2C353400923039 /* SafeDriver WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA7A9981B2C353400923039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A9A31B2C353400923039 /* Interface.storyboard in Resources */,
+				3DA7A9A51B2C353400923039 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,6 +490,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DA7A9741B2C345300923039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A9801B2C345300923039 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA7A98A1B2C353400923039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA7A9931B2C353400923039 /* InterfaceController.swift in Sources */,
+				3DA7A9951B2C353400923039 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -249,6 +514,21 @@
 			isa = PBXTargetDependency;
 			target = 227059AC19F512D4003D0222 /* SafeDriver */;
 			targetProxy = 227059C319F512D4003D0222 /* PBXContainerItemProxy */;
+		};
+		3DA7A9841B2C345300923039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA7A9771B2C345300923039 /* SafeDriver Today */;
+			targetProxy = 3DA7A9831B2C345300923039 /* PBXContainerItemProxy */;
+		};
+		3DA7A99D1B2C353400923039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA7A9991B2C353400923039 /* SafeDriver WatchKit App */;
+			targetProxy = 3DA7A99C1B2C353400923039 /* PBXContainerItemProxy */;
+		};
+		3DA7A9A71B2C353400923039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA7A98D1B2C353400923039 /* SafeDriver WatchKit Extension */;
+			targetProxy = 3DA7A9A61B2C353400923039 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -267,6 +547,14 @@
 				227059BC19F512D4003D0222 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		3DA7A9A11B2C353400923039 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA7A9A21B2C353400923039 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,7 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -369,8 +657,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -413,6 +701,115 @@
 			};
 			name = Release;
 		};
+		3DA7A9871B2C345300923039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SafeDriver Today/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3DA7A9881B2C345300923039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SafeDriver Today/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3DA7A9AA1B2C353400923039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SafeDriver_WatchKit_Extension;
+				INFOPLIST_FILE = "SafeDriver WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		3DA7A9AB1B2C353400923039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = SafeDriver_WatchKit_Extension;
+				INFOPLIST_FILE = "SafeDriver WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		3DA7A9AD1B2C353400923039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SafeDriver WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3DA7A9AE1B2C353400923039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "SafeDriver WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,6 +839,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		3DA7A9861B2C345300923039 /* Build configuration list for PBXNativeTarget "SafeDriver Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA7A9871B2C345300923039 /* Debug */,
+				3DA7A9881B2C345300923039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DA7A9A91B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA7A9AA1B2C353400923039 /* Debug */,
+				3DA7A9AB1B2C353400923039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DA7A9AC1B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA7A9AD1B2C353400923039 /* Debug */,
+				3DA7A9AE1B2C353400923039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

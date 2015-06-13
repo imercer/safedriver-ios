@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SafeDriver Today.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SafeDriver WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SafeDriver.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>227059C119F512D4003D0222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3DA7A9771B2C345300923039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3DA7A9991B2C353400923039</key>
 		<dict>
 			<key>primary</key>
 			<true/>

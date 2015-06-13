@@ -17,8 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="VdP-Lb-tmU">
+                                <rect key="frame" x="0.0" y="550" width="320" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="YoO-Db-RjU"/>
+                                    <constraint firstAttribute="height" constant="50" id="gkq-XX-CF9"/>
+                                </constraints>
+                            </adBannerView>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oo-l9-oTb">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="530"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
@@ -26,10 +34,14 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="0oo-l9-oTb" secondAttribute="trailing" constant="-16" id="Cyd-K3-q0B"/>
-                            <constraint firstItem="0oo-l9-oTb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="IB6-0R-Lyv"/>
-                            <constraint firstItem="0oo-l9-oTb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ZFW-nx-mNu"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0oo-l9-oTb" secondAttribute="bottom" id="rDL-uS-j9E"/>
+                            <constraint firstItem="0oo-l9-oTb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="45V-zx-Jhl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VdP-Lb-tmU" secondAttribute="trailing" constant="-16" id="Ffu-Ad-KVu"/>
+                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="IdI-18-SOs"/>
+                            <constraint firstItem="0oo-l9-oTb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Xwb-Ts-uTB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VdP-Lb-tmU" secondAttribute="bottom" id="eOh-gA-JTw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0oo-l9-oTb" secondAttribute="trailing" constant="-16" id="h37-El-g8a"/>
+                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="top" secondItem="0oo-l9-oTb" secondAttribute="bottom" id="i7Q-52-6Po"/>
+                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="top" secondItem="0oo-l9-oTb" secondAttribute="bottom" id="uL4-7C-zrd"/>
                         </constraints>
                     </view>
                     <connections>

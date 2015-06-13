@@ -1,9 +1,12 @@
 import UIKit
 import CoreLocation
+import iAd
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewDelegate {
   
   let locationManager = CLLocationManager()
+    
+    var bannerView:ADBannerView?
 
     @IBOutlet weak var webView: UIWebView!
     
@@ -25,6 +28,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     let url = NSURL(string: "http://app.safedriver.org.nz")
     let request = NSURLRequest(URL: url!)
     webView.loadRequest(request)
+    
+    self.canDisplayBannerAds = true
+    self.bannerView?.delegate = self
+    self.bannerView?.hidden = true
     
     //Regular Alerts
     var leftNotification1:UILocalNotification = UILocalNotification()
@@ -111,7 +118,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     DevilsStaircase.region.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(DevilsStaircase)
   }
-
+    
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        self.bannerView?.hidden = false
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.bannerView?.hidden = true
+    }
  
 }
 

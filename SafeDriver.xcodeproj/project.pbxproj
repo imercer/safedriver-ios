@@ -13,6 +13,10 @@
 		227059BA19F512D4003D0222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227059B919F512D4003D0222 /* Images.xcassets */; };
 		227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227059BB19F512D4003D0222 /* LaunchScreen.xib */; };
 		227059C919F512D5003D0222 /* NearlyThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227059C819F512D5003D0222 /* NearlyThereTests.swift */; };
+		3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE431B2CE85600D02E15 /* CROWN.gpx */; };
+		3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE451B2CE8F400D02E15 /* KGorge.gpx */; };
+		3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */; };
+		3D93BE4A1B2CE9C000D02E15 /* Milford.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE491B2CE9C000D02E15 /* Milford.gpx */; };
 		3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96C1B2C2EAC00923039 /* left.mp3 */; };
 		3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96E1B2C2ED100923039 /* corners.mp3 */; };
 		3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9701B2C2F3300923039 /* overtaking.mp3 */; };
@@ -90,6 +94,10 @@
 		227059C219F512D4003D0222 /* SafeDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227059C719F512D5003D0222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227059C819F512D5003D0222 /* NearlyThereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearlyThereTests.swift; sourceTree = "<group>"; };
+		3D93BE431B2CE85600D02E15 /* CROWN.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CROWN.gpx; sourceTree = "<group>"; };
+		3D93BE451B2CE8F400D02E15 /* KGorge.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KGorge.gpx; sourceTree = "<group>"; };
+		3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DevilsStaircase.gpx; sourceTree = "<group>"; };
+		3D93BE491B2CE9C000D02E15 /* Milford.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Milford.gpx; sourceTree = "<group>"; };
 		3DA7A96C1B2C2EAC00923039 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
 		3DA7A96E1B2C2ED100923039 /* corners.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corners.mp3; sourceTree = "<group>"; };
 		3DA7A9701B2C2F3300923039 /* overtaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtaking.mp3; sourceTree = "<group>"; };
@@ -151,6 +159,10 @@
 		227059A419F512D3003D0222 = {
 			isa = PBXGroup;
 			children = (
+				3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */,
+				3D93BE491B2CE9C000D02E15 /* Milford.gpx */,
+				3D93BE451B2CE8F400D02E15 /* KGorge.gpx */,
+				3D93BE431B2CE85600D02E15 /* CROWN.gpx */,
 				227059AF19F512D4003D0222 /* NearlyThere */,
 				227059C519F512D5003D0222 /* NearlyThereTests */,
 				3DA7A97C1B2C345300923039 /* SafeDriver Today */,
@@ -430,11 +442,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */,
 				3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */,
+				3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */,
 				3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */,
 				227059B819F512D4003D0222 /* Main.storyboard in Resources */,
+				3D93BE4A1B2CE9C000D02E15 /* Milford.gpx in Resources */,
 				3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */,
 				3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */,
+				3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */,
 				227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */,
 				3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */,
 				227059BA19F512D4003D0222 /* Images.xcassets in Resources */,
@@ -646,7 +662,7 @@
 		227059CD19F512D5003D0222 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
@@ -660,7 +676,7 @@
 		227059CE19F512D5003D0222 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
@@ -851,6 +867,7 @@
 				3DA7A9881B2C345300923039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DA7A9A91B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -859,6 +876,7 @@
 				3DA7A9AB1B2C353400923039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DA7A9AC1B2C353400923039 /* Build configuration list for PBXNativeTarget "SafeDriver WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -867,6 +885,7 @@
 				3DA7A9AE1B2C353400923039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

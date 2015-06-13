@@ -12,7 +12,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     // Do any additional setup after loading the view, typically from a nib.
     
     // Ask for permission for notifications
-    let notificationSettings = UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert, categories: nil)
+    let notificationSettings = UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert|UIUserNotificationType.Sound, categories: nil)
     UIApplication.sharedApplication().registerForRemoteNotifications()
     UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
     UIApplication.sharedApplication().cancelAllLocalNotifications()
@@ -25,6 +25,35 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     let url = NSURL(string: "http://app.safedriver.org.nz")
     let request = NSURLRequest(URL: url!)
     webView.loadRequest(request)
+    
+    //Regular Alerts
+    var leftNotification1:UILocalNotification = UILocalNotification()
+    leftNotification1.alertBody = "Keep Left on all New Zealand Roads"
+    leftNotification1.repeatInterval = NSCalendarUnit.CalendarUnitHour
+    leftNotification1.soundName = "left.mp3"
+    leftNotification1.fireDate = NSDate(timeIntervalSinceNow: 900)
+    UIApplication.sharedApplication().scheduleLocalNotification(leftNotification1)
+    
+    var slowNotification:UILocalNotification = UILocalNotification()
+    slowNotification.alertBody = "Slow Down when approaching corners"
+    slowNotification.repeatInterval = NSCalendarUnit.CalendarUnitHour
+    slowNotification.soundName = "slow.mp3"
+    slowNotification.fireDate = NSDate(timeIntervalSinceNow: 1800)
+    UIApplication.sharedApplication().scheduleLocalNotification(slowNotification)
+    
+    var overtaking:UILocalNotification = UILocalNotification()
+    overtaking.alertBody = "Do Not Overtake near corners and intersections"
+    overtaking.repeatInterval = NSCalendarUnit.CalendarUnitHour
+    overtaking.soundName = "overtaking.mp3"
+    overtaking.fireDate = NSDate(timeIntervalSinceNow: 2700)
+    UIApplication.sharedApplication().scheduleLocalNotification(overtaking)
+    
+    var wetandicy:UILocalNotification = UILocalNotification()
+    wetandicy.alertBody = "Slow Down on Wet and Icy Roads"
+    wetandicy.repeatInterval = NSCalendarUnit.CalendarUnitHour
+    wetandicy.soundName = "wetandicy.mp3"
+    wetandicy.fireDate = NSDate(timeIntervalSinceNow: 3600)
+    UIApplication.sharedApplication().scheduleLocalNotification(wetandicy)
     
     let BaseCrown = UILocalNotification()
     BaseCrown.alertBody = "You have entered a high risk zone (Crown Range Road) , proceed with caution"

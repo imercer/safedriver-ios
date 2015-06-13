@@ -13,6 +13,10 @@
 		227059BA19F512D4003D0222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227059B919F512D4003D0222 /* Images.xcassets */; };
 		227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227059BB19F512D4003D0222 /* LaunchScreen.xib */; };
 		227059C919F512D5003D0222 /* NearlyThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227059C819F512D5003D0222 /* NearlyThereTests.swift */; };
+		3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96C1B2C2EAC00923039 /* left.mp3 */; };
+		3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96E1B2C2ED100923039 /* corners.mp3 */; };
+		3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9701B2C2F3300923039 /* overtaking.mp3 */; };
+		3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		227059C219F512D4003D0222 /* SafeDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227059C719F512D5003D0222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227059C819F512D5003D0222 /* NearlyThereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearlyThereTests.swift; sourceTree = "<group>"; };
+		3DA7A96C1B2C2EAC00923039 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
+		3DA7A96E1B2C2ED100923039 /* corners.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corners.mp3; sourceTree = "<group>"; };
+		3DA7A9701B2C2F3300923039 /* overtaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtaking.mp3; sourceTree = "<group>"; };
+		3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wetandicy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				227059B219F512D4003D0222 /* AppDelegate.swift */,
 				227059B419F512D4003D0222 /* ViewController.swift */,
+				3DA7A9701B2C2F3300923039 /* overtaking.mp3 */,
+				3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */,
+				3DA7A96E1B2C2ED100923039 /* corners.mp3 */,
+				3DA7A96C1B2C2EAC00923039 /* left.mp3 */,
 				227059B619F512D4003D0222 /* Main.storyboard */,
 				227059B919F512D4003D0222 /* Images.xcassets */,
 				227059BB19F512D4003D0222 /* LaunchScreen.xib */,
@@ -193,7 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */,
+				3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */,
 				227059B819F512D4003D0222 /* Main.storyboard in Resources */,
+				3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */,
+				3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */,
 				227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */,
 				227059BA19F512D4003D0222 /* Images.xcassets in Resources */,
 			);
@@ -339,7 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

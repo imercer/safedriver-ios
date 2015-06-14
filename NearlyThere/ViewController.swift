@@ -137,7 +137,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
     let HaurakiPlains = UILocalNotification()
     HaurakiPlains.alertBody = "You have entered a high risk zone (Hauraki Plains) , proceed with caution."
     HaurakiPlains.regionTriggersOnce = false
-    HaurakiPlains.soundName = "desertroad.mp3"
+    HaurakiPlains.soundName = "haurakiplains.mp3"
     HaurakiPlains.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -37.246316, longitude: 175.199842), radius: 12000.0, identifier: "Location9")
     HaurakiPlains.region.notifyOnExit = false

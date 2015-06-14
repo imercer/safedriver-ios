@@ -17,6 +17,11 @@
 		3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE451B2CE8F400D02E15 /* KGorge.gpx */; };
 		3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */; };
 		3D93BE4A1B2CE9C000D02E15 /* Milford.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE491B2CE9C000D02E15 /* Milford.gpx */; };
+		3D93BE4E1B2CFC6700D02E15 /* avalanche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE4D1B2CFC6700D02E15 /* avalanche.mp3 */; };
+		3D93BE501B2CFCB600D02E15 /* devilsstaircase.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE4F1B2CFCB600D02E15 /* devilsstaircase.mp3 */; };
+		3D93BE521B2CFD0A00D02E15 /* milfordroadshortened.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */; };
+		3D93BE541B2CFD4800D02E15 /* homer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE531B2CFD4800D02E15 /* homer.mp3 */; };
+		3D93BE561B2CFD8B00D02E15 /* kgorgeextended.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */; };
 		3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96C1B2C2EAC00923039 /* left.mp3 */; };
 		3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96E1B2C2ED100923039 /* corners.mp3 */; };
 		3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9701B2C2F3300923039 /* overtaking.mp3 */; };
@@ -76,6 +81,11 @@
 		3D93BE451B2CE8F400D02E15 /* KGorge.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KGorge.gpx; sourceTree = "<group>"; };
 		3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DevilsStaircase.gpx; sourceTree = "<group>"; };
 		3D93BE491B2CE9C000D02E15 /* Milford.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Milford.gpx; sourceTree = "<group>"; };
+		3D93BE4D1B2CFC6700D02E15 /* avalanche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = avalanche.mp3; sourceTree = "<group>"; };
+		3D93BE4F1B2CFCB600D02E15 /* devilsstaircase.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = devilsstaircase.mp3; sourceTree = "<group>"; };
+		3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = milfordroadshortened.mp3; sourceTree = "<group>"; };
+		3D93BE531B2CFD4800D02E15 /* homer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = homer.mp3; sourceTree = "<group>"; };
+		3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kgorgeextended.mp3; sourceTree = "<group>"; };
 		3DA7A96C1B2C2EAC00923039 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
 		3DA7A96E1B2C2ED100923039 /* corners.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corners.mp3; sourceTree = "<group>"; };
 		3DA7A9701B2C2F3300923039 /* overtaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtaking.mp3; sourceTree = "<group>"; };
@@ -157,8 +167,13 @@
 			children = (
 				227059B219F512D4003D0222 /* AppDelegate.swift */,
 				227059B419F512D4003D0222 /* ViewController.swift */,
+				3D93BE4D1B2CFC6700D02E15 /* avalanche.mp3 */,
 				3DA7A9701B2C2F3300923039 /* overtaking.mp3 */,
 				3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */,
+				3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */,
+				3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */,
+				3D93BE4F1B2CFCB600D02E15 /* devilsstaircase.mp3 */,
+				3D93BE531B2CFD4800D02E15 /* homer.mp3 */,
 				3DA7A9B31B2C38AA00923039 /* bg.jpg */,
 				3DA7A96E1B2C2ED100923039 /* corners.mp3 */,
 				3DA7A96C1B2C2EAC00923039 /* left.mp3 */,
@@ -366,6 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */,
+				3D93BE501B2CFCB600D02E15 /* devilsstaircase.mp3 in Resources */,
+				3D93BE561B2CFD8B00D02E15 /* kgorgeextended.mp3 in Resources */,
+				3D93BE541B2CFD4800D02E15 /* homer.mp3 in Resources */,
 				3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */,
 				3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */,
 				3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */,
@@ -375,6 +393,8 @@
 				3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */,
 				3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */,
 				227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */,
+				3D93BE521B2CFD0A00D02E15 /* milfordroadshortened.mp3 in Resources */,
+				3D93BE4E1B2CFC6700D02E15 /* avalanche.mp3 in Resources */,
 				3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */,
 				227059BA19F512D4003D0222 /* Images.xcassets in Resources */,
 			);
@@ -555,7 +575,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SafeDriver;
-				PROVISIONING_PROFILE = "66bbab09-bfed-4136-95b6-1d592959b261";
+				PROVISIONING_PROFILE = "7ab69a18-8aa0-4d7d-a129-5cf71349a019";
 			};
 			name = Debug;
 		};
@@ -569,7 +589,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SafeDriver;
-				PROVISIONING_PROFILE = "66bbab09-bfed-4136-95b6-1d592959b261";
+				PROVISIONING_PROFILE = "7ab69a18-8aa0-4d7d-a129-5cf71349a019";
 			};
 			name = Release;
 		};
@@ -610,8 +630,8 @@
 		3DA7A9871B2C345300923039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -622,7 +642,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a9b4f6d9-c56b-4f51-b058-659632ebf519";
+				PROVISIONING_PROFILE = "50581b3b-7229-4821-a810-651641977f8e";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -630,8 +650,8 @@
 		3DA7A9881B2C345300923039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -639,7 +659,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a9b4f6d9-c56b-4f51-b058-659632ebf519";
+				PROVISIONING_PROFILE = "50581b3b-7229-4821-a810-651641977f8e";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

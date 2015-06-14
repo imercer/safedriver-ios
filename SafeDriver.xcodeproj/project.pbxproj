@@ -13,6 +13,21 @@
 		227059BA19F512D4003D0222 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227059B919F512D4003D0222 /* Images.xcassets */; };
 		227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 227059BB19F512D4003D0222 /* LaunchScreen.xib */; };
 		227059C919F512D5003D0222 /* NearlyThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227059C819F512D5003D0222 /* NearlyThereTests.swift */; };
+		3D2562C11B2D4D3B00ACBAF1 /* Brynderwyn Hills.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562C01B2D4D3B00ACBAF1 /* Brynderwyn Hills.gpx */; };
+		3D2562C31B2D4DA300ACBAF1 /* Desert Road.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562C21B2D4DA300ACBAF1 /* Desert Road.gpx */; };
+		3D2562C51B2D4E5100ACBAF1 /* SH2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562C41B2D4E5100ACBAF1 /* SH2.gpx */; };
+		3D2562D31B2D57F800ACBAF1 /* Kaimai SH29.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562D21B2D57F800ACBAF1 /* Kaimai SH29.gpx */; };
+		3D2562D51B2D584D00ACBAF1 /* Karangahake.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562D41B2D584D00ACBAF1 /* Karangahake.gpx */; };
+		3D2562D71B2D58DD00ACBAF1 /* LindisPass.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562D61B2D58DD00ACBAF1 /* LindisPass.gpx */; };
+		3D2562DB1B2D59C400ACBAF1 /* Dome Valley.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562D81B2D59C400ACBAF1 /* Dome Valley.gpx */; };
+		3D2562DC1B2D59C400ACBAF1 /* Rimutaka.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562D91B2D59C400ACBAF1 /* Rimutaka.gpx */; };
+		3D2562DD1B2D59C400ACBAF1 /* Taupo - Napier.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562DA1B2D59C400ACBAF1 /* Taupo - Napier.gpx */; };
+		3D2562E41B2D5BB200ACBAF1 /* desertroad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562DE1B2D5BB200ACBAF1 /* desertroad.mp3 */; };
+		3D2562E51B2D5BB200ACBAF1 /* haurakiplains.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562DF1B2D5BB200ACBAF1 /* haurakiplains.mp3 */; };
+		3D2562E61B2D5BB200ACBAF1 /* karangaheke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E01B2D5BB200ACBAF1 /* karangaheke.mp3 */; };
+		3D2562E71B2D5BB200ACBAF1 /* lindispass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E11B2D5BB200ACBAF1 /* lindispass.mp3 */; };
+		3D2562E81B2D5BB200ACBAF1 /* napiertaupo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E21B2D5BB200ACBAF1 /* napiertaupo.mp3 */; };
+		3D2562E91B2D5BB200ACBAF1 /* rimutakahill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E31B2D5BB200ACBAF1 /* rimutakahill.mp3 */; };
 		3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE431B2CE85600D02E15 /* CROWN.gpx */; };
 		3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE451B2CE8F400D02E15 /* KGorge.gpx */; };
 		3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */; };
@@ -22,13 +37,7 @@
 		3D93BE521B2CFD0A00D02E15 /* milfordroadshortened.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */; };
 		3D93BE541B2CFD4800D02E15 /* homer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE531B2CFD4800D02E15 /* homer.mp3 */; };
 		3D93BE561B2CFD8B00D02E15 /* kgorgeextended.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */; };
-		3D93BE5E1B2D248900D02E15 /* desertroad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE571B2D248900D02E15 /* desertroad.mp3 */; };
-		3D93BE5F1B2D248900D02E15 /* haurakiplains.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE581B2D248900D02E15 /* haurakiplains.mp3 */; };
 		3D93BE601B2D248900D02E15 /* kaimai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE591B2D248900D02E15 /* kaimai.mp3 */; };
-		3D93BE611B2D248900D02E15 /* karangaheke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE5A1B2D248900D02E15 /* karangaheke.mp3 */; };
-		3D93BE621B2D248900D02E15 /* lindispass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE5B1B2D248900D02E15 /* lindispass.mp3 */; };
-		3D93BE631B2D248900D02E15 /* napiertaupo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE5C1B2D248900D02E15 /* napiertaupo.mp3 */; };
-		3D93BE641B2D248900D02E15 /* rimutakahill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE5D1B2D248900D02E15 /* rimutakahill.mp3 */; };
 		3D93BE661B2D2D8E00D02E15 /* crownrange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */; };
 		3D93BE691B2D2DA200D02E15 /* brynderwyns.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE671B2D2DA200D02E15 /* brynderwyns.mp3 */; };
 		3D93BE6A1B2D2DA200D02E15 /* domevalley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE681B2D2DA200D02E15 /* domevalley.mp3 */; };
@@ -92,6 +101,21 @@
 		227059C219F512D4003D0222 /* SafeDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227059C719F512D5003D0222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		227059C819F512D5003D0222 /* NearlyThereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearlyThereTests.swift; sourceTree = "<group>"; };
+		3D2562C01B2D4D3B00ACBAF1 /* Brynderwyn Hills.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Brynderwyn Hills.gpx"; sourceTree = "<group>"; };
+		3D2562C21B2D4DA300ACBAF1 /* Desert Road.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Desert Road.gpx"; sourceTree = "<group>"; };
+		3D2562C41B2D4E5100ACBAF1 /* SH2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SH2.gpx; sourceTree = "<group>"; };
+		3D2562D21B2D57F800ACBAF1 /* Kaimai SH29.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Kaimai SH29.gpx"; sourceTree = "<group>"; };
+		3D2562D41B2D584D00ACBAF1 /* Karangahake.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Karangahake.gpx; sourceTree = "<group>"; };
+		3D2562D61B2D58DD00ACBAF1 /* LindisPass.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LindisPass.gpx; sourceTree = "<group>"; };
+		3D2562D81B2D59C400ACBAF1 /* Dome Valley.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Dome Valley.gpx"; sourceTree = "<group>"; };
+		3D2562D91B2D59C400ACBAF1 /* Rimutaka.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Rimutaka.gpx; sourceTree = "<group>"; };
+		3D2562DA1B2D59C400ACBAF1 /* Taupo - Napier.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Taupo - Napier.gpx"; sourceTree = "<group>"; };
+		3D2562DE1B2D5BB200ACBAF1 /* desertroad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = desertroad.mp3; sourceTree = "<group>"; };
+		3D2562DF1B2D5BB200ACBAF1 /* haurakiplains.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haurakiplains.mp3; sourceTree = "<group>"; };
+		3D2562E01B2D5BB200ACBAF1 /* karangaheke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = karangaheke.mp3; sourceTree = "<group>"; };
+		3D2562E11B2D5BB200ACBAF1 /* lindispass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lindispass.mp3; sourceTree = "<group>"; };
+		3D2562E21B2D5BB200ACBAF1 /* napiertaupo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = napiertaupo.mp3; sourceTree = "<group>"; };
+		3D2562E31B2D5BB200ACBAF1 /* rimutakahill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rimutakahill.mp3; sourceTree = "<group>"; };
 		3D93BE431B2CE85600D02E15 /* CROWN.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CROWN.gpx; sourceTree = "<group>"; };
 		3D93BE451B2CE8F400D02E15 /* KGorge.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KGorge.gpx; sourceTree = "<group>"; };
 		3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DevilsStaircase.gpx; sourceTree = "<group>"; };
@@ -101,13 +125,7 @@
 		3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = milfordroadshortened.mp3; sourceTree = "<group>"; };
 		3D93BE531B2CFD4800D02E15 /* homer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = homer.mp3; sourceTree = "<group>"; };
 		3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kgorgeextended.mp3; sourceTree = "<group>"; };
-		3D93BE571B2D248900D02E15 /* desertroad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = desertroad.mp3; sourceTree = "<group>"; };
-		3D93BE581B2D248900D02E15 /* haurakiplains.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = haurakiplains.mp3; sourceTree = "<group>"; };
 		3D93BE591B2D248900D02E15 /* kaimai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kaimai.mp3; sourceTree = "<group>"; };
-		3D93BE5A1B2D248900D02E15 /* karangaheke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = karangaheke.mp3; sourceTree = "<group>"; };
-		3D93BE5B1B2D248900D02E15 /* lindispass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lindispass.mp3; sourceTree = "<group>"; };
-		3D93BE5C1B2D248900D02E15 /* napiertaupo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = napiertaupo.mp3; sourceTree = "<group>"; };
-		3D93BE5D1B2D248900D02E15 /* rimutakahill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rimutakahill.mp3; sourceTree = "<group>"; };
 		3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crownrange.mp3; sourceTree = "<group>"; };
 		3D93BE671B2D2DA200D02E15 /* brynderwyns.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brynderwyns.mp3; sourceTree = "<group>"; };
 		3D93BE681B2D2DA200D02E15 /* domevalley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = domevalley.mp3; sourceTree = "<group>"; };
@@ -170,6 +188,15 @@
 			children = (
 				3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */,
 				3D93BE491B2CE9C000D02E15 /* Milford.gpx */,
+				3D2562C01B2D4D3B00ACBAF1 /* Brynderwyn Hills.gpx */,
+				3D2562D21B2D57F800ACBAF1 /* Kaimai SH29.gpx */,
+				3D2562D81B2D59C400ACBAF1 /* Dome Valley.gpx */,
+				3D2562D91B2D59C400ACBAF1 /* Rimutaka.gpx */,
+				3D2562DA1B2D59C400ACBAF1 /* Taupo - Napier.gpx */,
+				3D2562C21B2D4DA300ACBAF1 /* Desert Road.gpx */,
+				3D2562D61B2D58DD00ACBAF1 /* LindisPass.gpx */,
+				3D2562C41B2D4E5100ACBAF1 /* SH2.gpx */,
+				3D2562D41B2D584D00ACBAF1 /* Karangahake.gpx */,
 				3D93BE451B2CE8F400D02E15 /* KGorge.gpx */,
 				3D93BE431B2CE85600D02E15 /* CROWN.gpx */,
 				227059AF19F512D4003D0222 /* NearlyThere */,
@@ -203,18 +230,18 @@
 				3D93BE681B2D2DA200D02E15 /* domevalley.mp3 */,
 				3DA7A9721B2C2F3F00923039 /* wetandicy.mp3 */,
 				3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */,
-				3D93BE571B2D248900D02E15 /* desertroad.mp3 */,
-				3D93BE581B2D248900D02E15 /* haurakiplains.mp3 */,
 				3D93BE6B1B2D37D700D02E15 /* event.aiff */,
 				3D93BE6C1B2D37D700D02E15 /* wet.aiff */,
 				3D93BE6D1B2D37D700D02E15 /* frostice.aiff */,
 				3D93BE6E1B2D37D700D02E15 /* holiday.aiff */,
 				3D93BE6F1B2D37D700D02E15 /* night.aiff */,
 				3D93BE591B2D248900D02E15 /* kaimai.mp3 */,
-				3D93BE5A1B2D248900D02E15 /* karangaheke.mp3 */,
-				3D93BE5B1B2D248900D02E15 /* lindispass.mp3 */,
-				3D93BE5C1B2D248900D02E15 /* napiertaupo.mp3 */,
-				3D93BE5D1B2D248900D02E15 /* rimutakahill.mp3 */,
+				3D2562DE1B2D5BB200ACBAF1 /* desertroad.mp3 */,
+				3D2562DF1B2D5BB200ACBAF1 /* haurakiplains.mp3 */,
+				3D2562E01B2D5BB200ACBAF1 /* karangaheke.mp3 */,
+				3D2562E11B2D5BB200ACBAF1 /* lindispass.mp3 */,
+				3D2562E21B2D5BB200ACBAF1 /* napiertaupo.mp3 */,
+				3D2562E31B2D5BB200ACBAF1 /* rimutakahill.mp3 */,
 				3D93BE511B2CFD0A00D02E15 /* milfordroadshortened.mp3 */,
 				3D93BE551B2CFD8B00D02E15 /* kgorgeextended.mp3 */,
 				3D93BE4F1B2CFCB600D02E15 /* devilsstaircase.mp3 */,
@@ -431,29 +458,38 @@
 				3D93BE501B2CFCB600D02E15 /* devilsstaircase.mp3 in Resources */,
 				3D93BE701B2D37D700D02E15 /* event.aiff in Resources */,
 				3D93BE561B2CFD8B00D02E15 /* kgorgeextended.mp3 in Resources */,
+				3D2562D31B2D57F800ACBAF1 /* Kaimai SH29.gpx in Resources */,
+				3D2562E61B2D5BB200ACBAF1 /* karangaheke.mp3 in Resources */,
 				3D93BE541B2CFD4800D02E15 /* homer.mp3 in Resources */,
-				3D93BE611B2D248900D02E15 /* karangaheke.mp3 in Resources */,
 				3D93BE741B2D37D700D02E15 /* night.aiff in Resources */,
-				3D93BE641B2D248900D02E15 /* rimutakahill.mp3 in Resources */,
-				3D93BE5F1B2D248900D02E15 /* haurakiplains.mp3 in Resources */,
+				3D2562E41B2D5BB200ACBAF1 /* desertroad.mp3 in Resources */,
+				3D2562DC1B2D59C400ACBAF1 /* Rimutaka.gpx in Resources */,
+				3D2562D71B2D58DD00ACBAF1 /* LindisPass.gpx in Resources */,
+				3D2562DD1B2D59C400ACBAF1 /* Taupo - Napier.gpx in Resources */,
+				3D2562DB1B2D59C400ACBAF1 /* Dome Valley.gpx in Resources */,
 				3D93BE731B2D37D700D02E15 /* holiday.aiff in Resources */,
 				3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */,
+				3D2562E51B2D5BB200ACBAF1 /* haurakiplains.mp3 in Resources */,
 				3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */,
 				3D93BE721B2D37D700D02E15 /* frostice.aiff in Resources */,
+				3D2562E71B2D5BB200ACBAF1 /* lindispass.mp3 in Resources */,
+				3D2562E81B2D5BB200ACBAF1 /* napiertaupo.mp3 in Resources */,
 				3D93BE711B2D37D700D02E15 /* wet.aiff in Resources */,
 				3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */,
 				227059B819F512D4003D0222 /* Main.storyboard in Resources */,
 				3D93BE6A1B2D2DA200D02E15 /* domevalley.mp3 in Resources */,
 				3D93BE4A1B2CE9C000D02E15 /* Milford.gpx in Resources */,
-				3D93BE631B2D248900D02E15 /* napiertaupo.mp3 in Resources */,
-				3D93BE5E1B2D248900D02E15 /* desertroad.mp3 in Resources */,
+				3D2562C11B2D4D3B00ACBAF1 /* Brynderwyn Hills.gpx in Resources */,
 				3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */,
 				3D93BE601B2D248900D02E15 /* kaimai.mp3 in Resources */,
+				3D2562C31B2D4DA300ACBAF1 /* Desert Road.gpx in Resources */,
 				3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */,
 				3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */,
-				3D93BE621B2D248900D02E15 /* lindispass.mp3 in Resources */,
 				227059BD19F512D4003D0222 /* LaunchScreen.xib in Resources */,
+				3D2562C51B2D4E5100ACBAF1 /* SH2.gpx in Resources */,
 				3D93BE521B2CFD0A00D02E15 /* milfordroadshortened.mp3 in Resources */,
+				3D2562D51B2D584D00ACBAF1 /* Karangahake.gpx in Resources */,
+				3D2562E91B2D5BB200ACBAF1 /* rimutakahill.mp3 in Resources */,
 				3D93BE4E1B2CFC6700D02E15 /* avalanche.mp3 in Resources */,
 				3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */,
 				227059BA19F512D4003D0222 /* Images.xcassets in Resources */,

@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         for var i = 0; i < deviceToken.length; i++ {
             tokenString += String(format: "%02.2hhx", arguments: [tokenChars[i]])
         }
+        println("tokenString: \(tokenString)")
         let urlPath = "http://app.safedriver.org.nz/push/register.php?deviceToken=\(tokenString)"
         let url = NSURL(string: urlPath)
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in

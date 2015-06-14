@@ -84,22 +84,25 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
     OutsideKGorge.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -45.049776, longitude: 169.032084), radius: 1000.0, identifier: "Location3")
     OutsideKGorge.region.notifyOnExit = false
+    OutsideKGorge.soundName = "kgorgeextended.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(OutsideKGorge)
     
     let MilfordAvalanche = UILocalNotification()
-    MilfordAvalanche.alertBody = "Do Not Stop within this high avalanche risk area."
+    MilfordAvalanche.alertBody = "Do not stop within this high avalanche risk area."
     MilfordAvalanche.regionTriggersOnce = false
+    MilfordAvalanche.soundName = "avalanche.mp3"
     MilfordAvalanche.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -44.775014, longitude: 168.006457), radius: 10000.0, identifier: "Location4")
     MilfordAvalanche.region.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(MilfordAvalanche)
     
     let HomerTunnel = UILocalNotification()
-    HomerTunnel.alertBody = "Turn on your lights whn inside the homer tunnel."
+    HomerTunnel.alertBody = "Turn on your lights when inside the homer tunnel."
     HomerTunnel.regionTriggersOnce = false
     HomerTunnel.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -44.764211, longitude: 167.981193), radius: 1000.0, identifier: "Location5")
     HomerTunnel.region.notifyOnExit = false
+    HomerTunnel.soundName = "homer.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(HomerTunnel)
     
     let MilfordRoad = UILocalNotification()
@@ -108,11 +111,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
     MilfordRoad.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -45.406867, longitude: 167.746012), radius: 1000.0, identifier: "Location6")
     MilfordRoad.region.notifyOnExit = false
+    MilfordRoad.soundName = "milfordroadshortened.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(MilfordRoad)
     
     let DevilsStaircase = UILocalNotification()
     DevilsStaircase.alertBody = "You have entered a high risk zone (Devils Staircase) , proceed with caution. There is no fuel beyond this point."
     DevilsStaircase.regionTriggersOnce = false
+    DevilsStaircase.soundName = "devilsstaircase.mp3"
     DevilsStaircase.region = CLCircularRegion(circularRegionWithCenter: CLLocationCoordinate2D(latitude:
         -45.199407, longitude: 168.742583), radius: 10000.0, identifier: "Location7")
     DevilsStaircase.region.notifyOnExit = false

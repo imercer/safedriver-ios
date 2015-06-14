@@ -32,6 +32,11 @@
 		3D93BE661B2D2D8E00D02E15 /* crownrange.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */; };
 		3D93BE691B2D2DA200D02E15 /* brynderwyns.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE671B2D2DA200D02E15 /* brynderwyns.mp3 */; };
 		3D93BE6A1B2D2DA200D02E15 /* domevalley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE681B2D2DA200D02E15 /* domevalley.mp3 */; };
+		3D93BE701B2D37D700D02E15 /* event.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE6B1B2D37D700D02E15 /* event.aiff */; };
+		3D93BE711B2D37D700D02E15 /* wet.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE6C1B2D37D700D02E15 /* wet.aiff */; };
+		3D93BE721B2D37D700D02E15 /* frostice.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE6D1B2D37D700D02E15 /* frostice.aiff */; };
+		3D93BE731B2D37D700D02E15 /* holiday.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE6E1B2D37D700D02E15 /* holiday.aiff */; };
+		3D93BE741B2D37D700D02E15 /* night.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE6F1B2D37D700D02E15 /* night.aiff */; };
 		3DA7A96D1B2C2EAC00923039 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96C1B2C2EAC00923039 /* left.mp3 */; };
 		3DA7A96F1B2C2ED100923039 /* corners.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A96E1B2C2ED100923039 /* corners.mp3 */; };
 		3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9701B2C2F3300923039 /* overtaking.mp3 */; };
@@ -106,6 +111,11 @@
 		3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crownrange.mp3; sourceTree = "<group>"; };
 		3D93BE671B2D2DA200D02E15 /* brynderwyns.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brynderwyns.mp3; sourceTree = "<group>"; };
 		3D93BE681B2D2DA200D02E15 /* domevalley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = domevalley.mp3; sourceTree = "<group>"; };
+		3D93BE6B1B2D37D700D02E15 /* event.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = event.aiff; sourceTree = "<group>"; };
+		3D93BE6C1B2D37D700D02E15 /* wet.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = wet.aiff; sourceTree = "<group>"; };
+		3D93BE6D1B2D37D700D02E15 /* frostice.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = frostice.aiff; sourceTree = "<group>"; };
+		3D93BE6E1B2D37D700D02E15 /* holiday.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = holiday.aiff; sourceTree = "<group>"; };
+		3D93BE6F1B2D37D700D02E15 /* night.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = night.aiff; sourceTree = "<group>"; };
 		3DA7A96C1B2C2EAC00923039 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
 		3DA7A96E1B2C2ED100923039 /* corners.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = corners.mp3; sourceTree = "<group>"; };
 		3DA7A9701B2C2F3300923039 /* overtaking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = overtaking.mp3; sourceTree = "<group>"; };
@@ -195,6 +205,11 @@
 				3D93BE651B2D2D8E00D02E15 /* crownrange.mp3 */,
 				3D93BE571B2D248900D02E15 /* desertroad.mp3 */,
 				3D93BE581B2D248900D02E15 /* haurakiplains.mp3 */,
+				3D93BE6B1B2D37D700D02E15 /* event.aiff */,
+				3D93BE6C1B2D37D700D02E15 /* wet.aiff */,
+				3D93BE6D1B2D37D700D02E15 /* frostice.aiff */,
+				3D93BE6E1B2D37D700D02E15 /* holiday.aiff */,
+				3D93BE6F1B2D37D700D02E15 /* night.aiff */,
 				3D93BE591B2D248900D02E15 /* kaimai.mp3 */,
 				3D93BE5A1B2D248900D02E15 /* karangaheke.mp3 */,
 				3D93BE5B1B2D248900D02E15 /* lindispass.mp3 */,
@@ -414,13 +429,18 @@
 				3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */,
 				3D93BE691B2D2DA200D02E15 /* brynderwyns.mp3 in Resources */,
 				3D93BE501B2CFCB600D02E15 /* devilsstaircase.mp3 in Resources */,
+				3D93BE701B2D37D700D02E15 /* event.aiff in Resources */,
 				3D93BE561B2CFD8B00D02E15 /* kgorgeextended.mp3 in Resources */,
 				3D93BE541B2CFD4800D02E15 /* homer.mp3 in Resources */,
 				3D93BE611B2D248900D02E15 /* karangaheke.mp3 in Resources */,
+				3D93BE741B2D37D700D02E15 /* night.aiff in Resources */,
 				3D93BE641B2D248900D02E15 /* rimutakahill.mp3 in Resources */,
 				3D93BE5F1B2D248900D02E15 /* haurakiplains.mp3 in Resources */,
+				3D93BE731B2D37D700D02E15 /* holiday.aiff in Resources */,
 				3DA7A9731B2C2F3F00923039 /* wetandicy.mp3 in Resources */,
 				3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */,
+				3D93BE721B2D37D700D02E15 /* frostice.aiff in Resources */,
+				3D93BE711B2D37D700D02E15 /* wet.aiff in Resources */,
 				3DA7A9711B2C2F3300923039 /* overtaking.mp3 in Resources */,
 				227059B819F512D4003D0222 /* Main.storyboard in Resources */,
 				3D93BE6A1B2D2DA200D02E15 /* domevalley.mp3 in Resources */,

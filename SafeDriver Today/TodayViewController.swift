@@ -8,12 +8,20 @@
 
 import UIKit
 import NotificationCenter
+import WebKit
 
 class TodayViewController: UIViewController, NCWidgetProviding {
-        
+
+//    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view from its nib.
+        /*self.webView = WKWebView()
+        self.view = self.webView
+        var url = NSURL(string:"http://www.kinderas.com/")
+        var req = NSURLRequest(URL:url!)
+        self.webView!.loadRequest(req)*/
     }
     
     override func didReceiveMemoryWarning() {

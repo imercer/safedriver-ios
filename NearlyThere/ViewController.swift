@@ -2,12 +2,10 @@ import UIKit
 import CoreLocation
 import iAd
 
-class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate {
   
   let locationManager = CLLocationManager()
     
-    var bannerView:ADBannerView?
-
     @IBOutlet weak var webView: UIWebView!
     
   override func viewDidLoad() {
@@ -29,9 +27,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
     let request = NSURLRequest(URL: url!)
     webView.loadRequest(request)
     
-    self.canDisplayBannerAds = true
-    self.bannerView?.delegate = self
-    self.bannerView?.hidden = true
     
     //Regular Alerts
     var leftNotification1:UILocalNotification = UILocalNotification()
@@ -208,14 +203,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, ADBannerViewD
 
     
   }
-    
-    func bannerViewDidLoadAd(banner: ADBannerView!) {
-        self.bannerView?.hidden = false
-    }
-    
-    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
-        self.bannerView?.hidden = true
-    }
  
 }
 

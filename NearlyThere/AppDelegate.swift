@@ -10,6 +10,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     if launchOptions?[UIApplicationLaunchOptionsLocationKey] != nil {
       println("It's a location event")
     }
+    
+    UIApplication.sharedApplication().statusBarHidden = false
+    UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+    //UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
     return true
   }
   

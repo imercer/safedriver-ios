@@ -54,8 +54,6 @@
 		3DA7A9801B2C345300923039 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA7A97F1B2C345300923039 /* TodayViewController.swift */; };
 		3DA7A9821B2C345300923039 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9811B2C345300923039 /* MainInterface.storyboard */; };
 		3DA7A9851B2C345300923039 /* SafeDriver Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DA7A9781B2C345300923039 /* SafeDriver Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3DA7A9B01B2C35BE00923039 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9AF1B2C35BE00923039 /* iAd.framework */; };
-		3DA7A9B21B2C35C200923039 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA7A9B11B2C35C200923039 /* AdSupport.framework */; };
 		3DA7A9B41B2C38AA00923039 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA7A9B31B2C38AA00923039 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
@@ -160,8 +158,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA7A9B21B2C35C200923039 /* AdSupport.framework in Frameworks */,
-				3DA7A9B01B2C35BE00923039 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,35 +16,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="VdP-Lb-tmU">
-                                <rect key="frame" x="0.0" y="550" width="320" height="50"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="YoO-Db-RjU"/>
-                                    <constraint firstAttribute="height" constant="50" id="gkq-XX-CF9"/>
-                                </constraints>
-                            </adBannerView>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oo-l9-oTb">
-                                <rect key="frame" x="0.0" y="20" width="600" height="530"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ed-4n-pbQ">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="0oo-l9-oTb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="45V-zx-Jhl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VdP-Lb-tmU" secondAttribute="trailing" constant="-16" id="Ffu-Ad-KVu"/>
-                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="IdI-18-SOs"/>
-                            <constraint firstItem="0oo-l9-oTb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Xwb-Ts-uTB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VdP-Lb-tmU" secondAttribute="bottom" id="eOh-gA-JTw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0oo-l9-oTb" secondAttribute="trailing" constant="-16" id="h37-El-g8a"/>
-                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="top" secondItem="0oo-l9-oTb" secondAttribute="bottom" id="i7Q-52-6Po"/>
-                            <constraint firstItem="VdP-Lb-tmU" firstAttribute="top" secondItem="0oo-l9-oTb" secondAttribute="bottom" id="uL4-7C-zrd"/>
+                            <constraint firstItem="4ed-4n-pbQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="6qo-qX-Tsb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ed-4n-pbQ" secondAttribute="bottom" id="HCP-44-yci"/>
+                            <constraint firstAttribute="trailing" secondItem="4ed-4n-pbQ" secondAttribute="trailing" id="QAJ-Vw-rmM"/>
+                            <constraint firstItem="4ed-4n-pbQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cSQ-kG-Sl4"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
-                        <outlet property="webView" destination="0oo-l9-oTb" id="dGD-V1-954"/>
+                        <outlet property="webView" destination="4ed-4n-pbQ" id="R98-HE-Wr1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

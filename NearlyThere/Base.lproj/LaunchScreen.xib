@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -10,18 +10,18 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Oq6-CF-cf0">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Oq6-CF-cf0">
                     <rect key="frame" x="-1355" y="-527" width="3057" height="1817"/>
                     <animations/>
                 </imageView>
                 <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dkI-2U-hyw">
-                    <rect key="frame" x="120" y="54" width="240" height="63"/>
+                    <rect key="frame" x="120" y="31" width="240" height="86"/>
                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="dE8-an-DJ2">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="63"/>
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SafeDriver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xd-N7-1NN">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="63"/>
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="86"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="highlightedColor"/>
@@ -29,23 +29,23 @@
                         </subviews>
                         <animations/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5Xd-N7-1NN" secondAttribute="trailing" id="Eft-fB-eFc"/>
-                            <constraint firstAttribute="bottom" secondItem="5Xd-N7-1NN" secondAttribute="bottom" id="KNf-Ar-z2e"/>
-                            <constraint firstItem="5Xd-N7-1NN" firstAttribute="top" secondItem="dE8-an-DJ2" secondAttribute="top" id="sNn-ee-nlW"/>
-                            <constraint firstItem="5Xd-N7-1NN" firstAttribute="leading" secondItem="dE8-an-DJ2" secondAttribute="leading" id="z93-HP-8Qs"/>
+                            <constraint firstAttribute="bottom" secondItem="5Xd-N7-1NN" secondAttribute="bottom" id="Rw0-zo-SFr"/>
+                            <constraint firstItem="5Xd-N7-1NN" firstAttribute="leading" secondItem="dE8-an-DJ2" secondAttribute="leading" id="UYZ-mu-BvY"/>
+                            <constraint firstAttribute="trailing" secondItem="5Xd-N7-1NN" secondAttribute="trailing" id="nKd-Uk-0NZ"/>
+                            <constraint firstItem="5Xd-N7-1NN" firstAttribute="top" secondItem="dE8-an-DJ2" secondAttribute="top" id="t3a-46-hnX"/>
                         </constraints>
                     </view>
                     <animations/>
                     <blurEffect style="light"/>
                 </visualEffectView>
                 <visualEffectView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGx-Ir-F7p">
-                    <rect key="frame" x="42" y="434" width="397" height="38"/>
+                    <rect key="frame" x="8" y="434" width="464" height="38"/>
                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rh9-c6-9tE">
-                        <rect key="frame" x="0.0" y="0.0" width="397" height="38"/>
+                        <rect key="frame" x="0.0" y="0.0" width="464" height="38"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stay Safe on New Zealand Roads" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NV-7D-aql">
-                                <rect key="frame" x="0.0" y="0.0" width="397" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Stay Safe on New Zealand Roads" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NV-7D-aql">
+                                <rect key="frame" x="0.0" y="0.0" width="464" height="38"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -53,6 +53,12 @@
                             </label>
                         </subviews>
                         <animations/>
+                        <constraints>
+                            <constraint firstItem="3NV-7D-aql" firstAttribute="leading" secondItem="rh9-c6-9tE" secondAttribute="leading" id="AS7-8K-Y6z"/>
+                            <constraint firstAttribute="bottom" secondItem="3NV-7D-aql" secondAttribute="bottom" id="DV6-yb-GG0"/>
+                            <constraint firstItem="3NV-7D-aql" firstAttribute="top" secondItem="rh9-c6-9tE" secondAttribute="top" id="QHz-hw-N2R"/>
+                            <constraint firstAttribute="trailing" secondItem="3NV-7D-aql" secondAttribute="trailing" id="fXu-nM-FT4"/>
+                        </constraints>
                     </view>
                     <animations/>
                     <blurEffect style="light"/>
@@ -61,16 +67,12 @@
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="CGx-Ir-F7p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="42" id="0bC-Ig-JtF"/>
-                <constraint firstAttribute="trailing" secondItem="CGx-Ir-F7p" secondAttribute="trailing" constant="41" id="2nv-Xv-4Nk"/>
-                <constraint firstItem="dkI-2U-hyw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="120" id="AEn-JS-U9l"/>
-                <constraint firstItem="Oq6-CF-cf0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-527" id="LaC-tl-4HE"/>
-                <constraint firstItem="Oq6-CF-cf0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-1355" id="RvL-Ea-8sk"/>
-                <constraint firstAttribute="trailing" secondItem="dkI-2U-hyw" secondAttribute="trailing" constant="120" id="UfB-uh-1tb"/>
-                <constraint firstAttribute="trailing" secondItem="Oq6-CF-cf0" secondAttribute="trailing" constant="-1222" id="Vc7-dk-pAb"/>
-                <constraint firstAttribute="bottom" secondItem="Oq6-CF-cf0" secondAttribute="bottom" constant="-810" id="gnM-P5-vWD"/>
-                <constraint firstAttribute="bottom" secondItem="CGx-Ir-F7p" secondAttribute="bottom" constant="8" id="l0X-mW-hpX"/>
-                <constraint firstItem="dkI-2U-hyw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="54" id="rSM-rk-B7a"/>
+                <constraint firstAttribute="trailing" secondItem="dkI-2U-hyw" secondAttribute="trailing" constant="120" id="DVA-Uk-chL"/>
+                <constraint firstItem="CGx-Ir-F7p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="TaK-Hc-6EU"/>
+                <constraint firstItem="dkI-2U-hyw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="120" id="hRe-UK-GkZ"/>
+                <constraint firstAttribute="bottom" secondItem="CGx-Ir-F7p" secondAttribute="bottom" constant="8" id="jMH-Uj-C7W"/>
+                <constraint firstItem="dkI-2U-hyw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="31" id="sLb-Ap-44H"/>
+                <constraint firstAttribute="trailing" secondItem="CGx-Ir-F7p" secondAttribute="trailing" constant="8" id="xGC-zd-eOW"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

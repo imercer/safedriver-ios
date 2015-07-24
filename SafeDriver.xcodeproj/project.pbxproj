@@ -661,13 +661,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SafeDriver;
-				PROVISIONING_PROFILE = "7ab69a18-8aa0-4d7d-a129-5cf71349a019";
+				PROVISIONING_PROFILE = "d40dd3dd-ca3e-43d6-929c-e5cc00f4a85e";
 			};
 			name = Debug;
 		};
@@ -681,7 +681,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = SafeDriver;
-				PROVISIONING_PROFILE = "7ab69a18-8aa0-4d7d-a129-5cf71349a019";
+				PROVISIONING_PROFILE = "d40dd3dd-ca3e-43d6-929c-e5cc00f4a85e";
 			};
 			name = Release;
 		};
@@ -722,8 +722,8 @@
 		3DA7A9871B2C345300923039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -734,7 +734,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50581b3b-7229-4821-a810-651641977f8e";
+				PROVISIONING_PROFILE = "0e3cd682-eef5-457e-bf2a-d844c3a1f5cc";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -742,8 +742,8 @@
 		3DA7A9881B2C345300923039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Isaac Mercer (Z57R32XFXP)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Isaac Mercer (YBYHDBC82A)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -751,7 +751,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50581b3b-7229-4821-a810-651641977f8e";
+				PROVISIONING_PROFILE = "0e3cd682-eef5-457e-bf2a-d844c3a1f5cc";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

@@ -406,12 +406,19 @@
 		227059A519F512D3003D0222 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Isaac Mercer";
 				TargetAttributes = {
 					227059AC19F512D4003D0222 = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = YBYHDBC82A;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					227059C119F512D4003D0222 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -598,6 +605,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -666,6 +674,7 @@
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.scoreonline.DriveSafe;
 				PRODUCT_NAME = SafeDriver;
 				PROVISIONING_PROFILE = "d40dd3dd-ca3e-43d6-929c-e5cc00f4a85e";
 			};
@@ -680,6 +689,7 @@
 				INFOPLIST_FILE = NearlyThere/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.scoreonline.DriveSafe;
 				PRODUCT_NAME = SafeDriver;
 				PROVISIONING_PROFILE = "d40dd3dd-ca3e-43d6-929c-e5cc00f4a85e";
 			};
@@ -699,6 +709,7 @@
 				);
 				INFOPLIST_FILE = NearlyThereTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinobicontrols.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SafeDriverTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearlyThere.app/NearlyThere";
 			};
@@ -714,6 +725,7 @@
 				);
 				INFOPLIST_FILE = NearlyThereTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shinobicontrols.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SafeDriverTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearlyThere.app/NearlyThere";
 			};
@@ -733,6 +745,7 @@
 				INFOPLIST_FILE = "SafeDriver Today/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.scoreonline.DriveSafe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0e3cd682-eef5-457e-bf2a-d844c3a1f5cc";
 				SKIP_INSTALL = YES;
@@ -750,6 +763,7 @@
 				INFOPLIST_FILE = "SafeDriver Today/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.scoreonline.DriveSafe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0e3cd682-eef5-457e-bf2a-d844c3a1f5cc";
 				SKIP_INSTALL = YES;

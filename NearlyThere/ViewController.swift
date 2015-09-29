@@ -64,7 +64,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     BaseCrown.regionTriggersOnce = true
     BaseCrown.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -44.97681, longitude: 168.863223), radius: 1000.0, identifier: "Location1")
-    //BaseCrown.region.notifyOnExit = false
+    BaseCrown.region!.notifyOnExit = false
     BaseCrown.soundName = "crownrange.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(BaseCrown)
     
@@ -73,7 +73,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     Cadrona.regionTriggersOnce = true
     Cadrona.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -44.89228, longitude: 168.994017), radius: 1000.0, identifier: "Location2")
-    //Cadrona.region.notifyOnEntry = false
+    Cadrona.region!.notifyOnEntry = false
     Cadrona.soundName = "crownrange.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(Cadrona)
     
@@ -82,7 +82,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     OutsideKGorge.regionTriggersOnce = true
     OutsideKGorge.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -45.049776, longitude: 169.032084), radius: 1000.0, identifier: "Location3")
-    //OutsideKGorge.region.notifyOnExit = false
+    OutsideKGorge.region!.notifyOnExit = false
     OutsideKGorge.soundName = "kgorgeextended.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(OutsideKGorge)
     
@@ -92,7 +92,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     MilfordAvalanche.soundName = "avalanche.mp3"
     MilfordAvalanche.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -44.775014, longitude: 168.006457), radius: 10000.0, identifier: "Location4")
-    //MilfordAvalanche.region.notifyOnExit = false
+    MilfordAvalanche.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(MilfordAvalanche)
     
     let HomerTunnel = UILocalNotification()
@@ -100,7 +100,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     HomerTunnel.regionTriggersOnce = true
     HomerTunnel.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -44.764211, longitude: 167.981193), radius: 1000.0, identifier: "Location5")
-    //HomerTunnel.region.notifyOnExit = false
+    HomerTunnel.region!.notifyOnExit = false
     HomerTunnel.soundName = "homer.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(HomerTunnel)
     
@@ -109,7 +109,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     MilfordRoad.regionTriggersOnce = true
     MilfordRoad.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -45.406867, longitude: 167.746012), radius: 1000.0, identifier: "Location6")
-    //MilfordRoad.region.notifyOnExit = false
+    MilfordRoad.region!.notifyOnExit = false
     MilfordRoad.soundName = "milfordroadshortened.mp3"
     UIApplication.sharedApplication().scheduleLocalNotification(MilfordRoad)
     
@@ -119,7 +119,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     DevilsStaircase.soundName = "devilsstaircase.mp3"
     DevilsStaircase.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -45.199407, longitude: 168.742583), radius: 10000.0, identifier: "Location7")
-    //DevilsStaircase.region.notifyOnExit = false
+    DevilsStaircase.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(DevilsStaircase)
     
     let DesertRoad = UILocalNotification()
@@ -128,7 +128,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     DesertRoad.soundName = "desertroad.mp3"
     DesertRoad.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -39.267437, longitude: 175.736685), radius: 25000.0, identifier: "Location8")
-   // DesertRoad.region.notifyOnExit = false
+    DesertRoad.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(DesertRoad)
     
     let HaurakiPlains = UILocalNotification()
@@ -137,7 +137,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     HaurakiPlains.soundName = "haurakiplains.mp3"
     HaurakiPlains.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -37.246316, longitude: 175.199842), radius: 12000.0, identifier: "Location9")
-    //HaurakiPlains.region.notifyOnExit = false
+    HaurakiPlains.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(HaurakiPlains)
     
     let KaimaiRanges = UILocalNotification()
@@ -146,7 +146,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     KaimaiRanges.soundName = "kaimai.mp3"
     KaimaiRanges.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -37.825720, longitude: 175.996133), radius: 10000.0, identifier: "Location10")
-    //KaimaiRanges.region.notifyOnExit = false
+    KaimaiRanges.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(KaimaiRanges)
     
     let Karangahake = UILocalNotification()
@@ -155,7 +155,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     Karangahake.soundName = "karangaheke.mp3"
     Karangahake.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -37.418901, longitude: 175.742572), radius: 3000.0, identifier: "Location11")
-    //Karangahake.region.notifyOnExit = false
+    Karangahake.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(Karangahake)
 
     let LindisPass = UILocalNotification()
@@ -164,7 +164,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     LindisPass.soundName = "lindispass.mp3"
     LindisPass.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -44.585636, longitude: 169.643528), radius: 37000.0, identifier: "Location12")
-    //LindisPass.region.notifyOnExit = false
+    LindisPass.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(LindisPass)
     
     let RimutakaHill = UILocalNotification()
@@ -173,7 +173,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     RimutakaHill.soundName = "rimutakahill.mp3"
     RimutakaHill.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -41.109769, longitude: 175.253011), radius: 5000.0, identifier: "Location13")
-    //RimutakaHill.region.notifyOnExit = false
+    RimutakaHill.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(RimutakaHill)
     
     let NapierTaupo = UILocalNotification()
@@ -182,7 +182,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     NapierTaupo.soundName = "napiertaupo.mp3"
     NapierTaupo.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -39.117149, longitude: 176.581215), radius: 30000.0, identifier: "Location14")
-    //NapierTaupo.region.notifyOnExit = false
+    NapierTaupo.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(NapierTaupo)
     
     let DomeValley = UILocalNotification()
@@ -191,18 +191,53 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     DomeValley.soundName = "domevalley.mp3"
     DomeValley.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -36.361306, longitude: 174.606477), radius: 6000.0, identifier: "Location15")
-    //DomeValley.region.notifyOnExit = false
+    DomeValley.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(DomeValley)
     
     let Brynderwyn = UILocalNotification()
     Brynderwyn.alertBody = "You have entered a high risk zone (Brynderwyn Hills) , proceed with caution."
     Brynderwyn.regionTriggersOnce = true
     Brynderwyn.soundName = "brynderwyns.mp3"
-    //Brynderwyn.region.notifyOnExit = false
     Brynderwyn.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
         -36.069030, longitude: 174.421383), radius: 2600.0, identifier: "Location16")
+    Brynderwyn.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(Brynderwyn)
 
+    let CMJ = UILocalNotification()
+    CMJ.alertBody = "Expect Merging Traffic"
+    CMJ.regionTriggersOnce = true
+    CMJ.soundName = "cmj.mp3"
+    CMJ.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
+        -36.86038, longitude: 174.76003), radius: 800.0, identifier: "Location17")
+    CMJ.region!.notifyOnExit = false
+    UIApplication.sharedApplication().scheduleLocalNotification(CMJ)
+    
+    let HarbourBridge = UILocalNotification()
+    HarbourBridge.alertBody = "Watch your following distances on Auckland Motorways."
+    HarbourBridge.regionTriggersOnce = true
+    HarbourBridge.soundName = "aklharbourbridge.mp3"
+    HarbourBridge.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
+        -36.830166, longitude: 174.746019), radius: 1400.0, identifier: "Location18")
+    HarbourBridge.region!.notifyOnExit = false
+    UIApplication.sharedApplication().scheduleLocalNotification(HarbourBridge)
+    
+    let JohnstonsHillTunnels = UILocalNotification()
+    JohnstonsHillTunnels.alertBody = "Watch your following distances on Auckland Motorways."
+    JohnstonsHillTunnels.regionTriggersOnce = true
+    JohnstonsHillTunnels.soundName = "followingdistances.mp3"
+    JohnstonsHillTunnels.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
+        -36.535894, longitude: 174.680456), radius: 300.0, identifier: "Location19")
+    JohnstonsHillTunnels.region!.notifyOnExit = false
+    UIApplication.sharedApplication().scheduleLocalNotification(JohnstonsHillTunnels)
+    
+    let VicParkTunnel = UILocalNotification()
+    VicParkTunnel.alertBody = "Watch your following distances on Auckland Motorways."
+    VicParkTunnel.regionTriggersOnce = true
+    VicParkTunnel.soundName = "vicparktunnel.mp3"
+    VicParkTunnel.region = CLCircularRegion(center: CLLocationCoordinate2D(latitude:
+        -36.849391, longitude: 174.753123), radius: 10.0, identifier: "Location20")
+    VicParkTunnel.region!.notifyOnExit = false
+    UIApplication.sharedApplication().scheduleLocalNotification(VicParkTunnel)
     
   }
  

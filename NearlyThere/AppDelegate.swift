@@ -8,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
     if launchOptions?[UIApplicationLaunchOptionsLocationKey] != nil {
-      println("It's a location event")
+      print("It's a location event")
     }
     
     UIApplication.sharedApplication().statusBarHidden = false
@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
-    println("\(notification)")
+    print("\(notification)")
     if notification.region != nil {
-      println("It's a location notification!")
+      print("It's a location notification!")
     }
   }
     
@@ -31,11 +31,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         for var i = 0; i < deviceToken.length; i++ {
             tokenString += String(format: "%02.2hhx", arguments: [tokenChars[i]])
         }
-        println("tokenString: \(tokenString)")
+        print("tokenString: \(tokenString)")
         let urlPath = "http://app.safedriver.org.nz/push/register.php?deviceToken=\(tokenString)"
         let url = NSURL(string: urlPath)
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
-            println(NSString(data: data, encoding: NSUTF8StringEncoding))
+            print(NSString(data: (data)!, encoding: NSUTF8StringEncoding))
         }
         
         task.resume()

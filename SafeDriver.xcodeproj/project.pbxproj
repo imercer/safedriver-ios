@@ -28,10 +28,10 @@
 		3D2562E71B2D5BB200ACBAF1 /* lindispass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E11B2D5BB200ACBAF1 /* lindispass.mp3 */; };
 		3D2562E81B2D5BB200ACBAF1 /* napiertaupo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E21B2D5BB200ACBAF1 /* napiertaupo.mp3 */; };
 		3D2562E91B2D5BB200ACBAF1 /* rimutakahill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D2562E31B2D5BB200ACBAF1 /* rimutakahill.mp3 */; };
-		3D614ED91BBB484D0039D7BD /* aklharbourbridge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614ED81BBB484D0039D7BD /* aklharbourbridge.mp3 */; settings = {ASSET_TAGS = (); }; };
-		3D614EDB1BBB48520039D7BD /* cmj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDA1BBB48520039D7BD /* cmj.mp3 */; settings = {ASSET_TAGS = (); }; };
-		3D614EDD1BBB48660039D7BD /* followingdistances.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDC1BBB48660039D7BD /* followingdistances.mp3 */; settings = {ASSET_TAGS = (); }; };
-		3D614EDF1BBB48A60039D7BD /* vicparktunnel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDE1BBB48A60039D7BD /* vicparktunnel.mp3 */; settings = {ASSET_TAGS = (); }; };
+		3D614ED91BBB484D0039D7BD /* aklharbourbridge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614ED81BBB484D0039D7BD /* aklharbourbridge.mp3 */; };
+		3D614EDB1BBB48520039D7BD /* cmj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDA1BBB48520039D7BD /* cmj.mp3 */; };
+		3D614EDD1BBB48660039D7BD /* followingdistances.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDC1BBB48660039D7BD /* followingdistances.mp3 */; };
+		3D614EDF1BBB48A60039D7BD /* vicparktunnel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D614EDE1BBB48A60039D7BD /* vicparktunnel.mp3 */; };
 		3D93BE441B2CE85700D02E15 /* CROWN.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE431B2CE85600D02E15 /* CROWN.gpx */; };
 		3D93BE461B2CE8F400D02E15 /* KGorge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE451B2CE8F400D02E15 /* KGorge.gpx */; };
 		3D93BE481B2CE93400D02E15 /* DevilsStaircase.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3D93BE471B2CE93400D02E15 /* DevilsStaircase.gpx */; };

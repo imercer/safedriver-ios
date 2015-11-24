@@ -45,12 +45,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     slowNotification.fireDate = NSDate(timeIntervalSinceNow: 1800)
     UIApplication.sharedApplication().scheduleLocalNotification(slowNotification)
     
-    let overtaking:UILocalNotification = UILocalNotification()
-    overtaking.alertBody = "Do Not Overtake near corners and intersections"
-    overtaking.repeatInterval = NSCalendarUnit.Hour
-    overtaking.soundName = "overtaking.mp3"
-    overtaking.fireDate = NSDate(timeIntervalSinceNow: 2700)
-    UIApplication.sharedApplication().scheduleLocalNotification(overtaking)
+    let pullover:UILocalNotification = UILocalNotification()
+    pullover.alertBody = "Pull over before taking photographs"
+    pullover.repeatInterval = NSCalendarUnit.Hour
+    pullover.soundName = "pullover.mp3"
+    pullover.fireDate = NSDate(timeIntervalSinceNow: 2700)
+    UIApplication.sharedApplication().scheduleLocalNotification(pullover)
     
     let wetandicy:UILocalNotification = UILocalNotification()
     wetandicy.alertBody = "Slow Down on Wet and Icy Roads"
@@ -59,6 +59,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     wetandicy.fireDate = NSDate(timeIntervalSinceNow: 3600)
     UIApplication.sharedApplication().scheduleLocalNotification(wetandicy)
     
+    /*
     let BaseCrown = UILocalNotification()
     BaseCrown.alertBody = "You have entered a high risk zone (Crown Range Road) , proceed with caution"
     BaseCrown.regionTriggersOnce = true
@@ -238,7 +239,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         -36.849391, longitude: 174.753123), radius: 10.0, identifier: "Location20")
     VicParkTunnel.region!.notifyOnExit = false
     UIApplication.sharedApplication().scheduleLocalNotification(VicParkTunnel)
-    
+    */
   }
  
 }

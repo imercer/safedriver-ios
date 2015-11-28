@@ -1,16 +1,16 @@
 //
-//  GlanceController.swift
-//  SafeDriver WatchKit Extension
+//  InterfaceController.swift
+//  SafeDriver Watch Extension
 //
-//  Created by Isaac M on 13/06/15.
-//  Copyright (c) 2015 Isaac Mercer. All rights reserved.
+//  Created by Isaac Mercer on 28/11/15.
+//  Copyright © 2015 Isaac Mercer. All rights reserved.
 //
 
 import WatchKit
 import Foundation
 
 
-class GlanceController: WKInterfaceController {
+class InterfaceController: WKInterfaceController {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

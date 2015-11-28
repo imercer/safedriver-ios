@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - SafeDriver Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>SafeDriver Today.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>SafeDriver Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>SafeDriver WatchKit App.xcscheme</key>
 		<dict>
@@ -47,6 +57,11 @@
 			<true/>
 		</dict>
 		<key>3DA7A9991B2C353400923039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3DDB4B6E1C09995C003D7A23</key>
 		<dict>
 			<key>primary</key>
 			<true/>
